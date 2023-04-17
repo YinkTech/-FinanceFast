@@ -1,0 +1,185 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: lighter;
+}
+
+.bi-caret-right-fill {
+  margin: 0;
+  padding: 0;
+  color: #634fda;
+  font-size: 15px;
+}
+
+.logo-name {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 23px;
+  font-weight: 200;
+  letter-spacing: 1.3px;
+}
+
+.nav-links {
+  flex: 3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-container {
+  border: 1px solid #d5d5d5;
+  border-radius: 50px;
+  width: fit-content;
+  margin: auto;
+  padding: 7px;
+}
+
+.form-button {
+  background: #563acc;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: .2s ease-in-out;
+  padding: 10px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.form-button:hover {
+  color: #000;
+  border: 1px dotted #563acc;
+  background: #fff;
+}
+
+.dropdown {
+  display: inline;
+  border: none;
+}
+
+.optionInput {
+  border: none;
+}
+
+.optionInput:focus {
+  border: none;
+  outline: none;
+}
+
+.btn {
+  border: none;
+}
+
+.flag {
+  width: 20px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.dropdown-menu {
+  border: none;
+}
+
+.dropdown-menu li {
+  width: fit-content;
+}
+
+.dropdown-item {
+  border: none;
+  width: fit-content;
+}
+
+.setText {
+  color: #5f56ee;
+}
+
+.iconGroup {
+  overflow-x: scroll;
+  
+overflow-y: hidden;
+  position: relative;
+}
+
+.iconGroup::-webkit-scrollbar {
+  height: 2px;
+}
+
+.iconSubGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phone {
+  justify-content:center;
+  align-items: baseline;
+  overflow: hidden;
+}
+
+.phone-1 {
+  width: 200px;
+  height: 270px;
+  border-radius: 20px 20px 0px 0px;
+  transition: 1s transform;
+}
+
+.phone-1:hover {
+  /* border: 1px solid inherit; */
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.phone-2:hover {
+  /* border: 1px solid inherit; */
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.phone-2 {
+  width: 200px;
+  height: 350px;
+  border-radius: 20px 20px 0px 0px;
+  transition: 1s transform;
+}
+
+.iconText {
+  align-items: center;
+  background: #e5dbfb;
+}
+
+.img-icon {
+  padding-right: 30px;
+  width: 230px;
+}
+
+.img-iconTC {
+  width: 150px;
+}
